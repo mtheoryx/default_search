@@ -19,8 +19,7 @@ header#identity {
 	font-size: 0.625em; /* 10px */
 	height: 44px;
 	line-height: 1em; /* 10px */
-/*	width:100%;*/
-	margin:0;
+    margin:0;
 	padding:0;
 }
 
@@ -30,8 +29,7 @@ div#signature {
 	height: 44px;
 	position: relative;
 	text-align: left;
-/*	margin-left:20px;*/
-margin: 0 auto;
+    margin: 0 auto;
 }
 
 #identity a {color: #fff;text-decoration: underline;}
@@ -42,7 +40,8 @@ margin: 0 auto;
 	display: block;
 	height: 44px;
 	left: -20px;
-	position: relative;
+	margin-left: 20px;
+    position: relative;
 	top: 0;
 	width: 250px;
 }
@@ -144,7 +143,12 @@ div#main {
     width: auto;
     max-width:920px;
 }
-
+div.content {
+    margin: 40px 0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    
+}
 /* =======================
     ALL: IU Footer
    ======================= */
