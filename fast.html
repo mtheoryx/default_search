@@ -1,0 +1,136 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>IU FAST Test Search Page</title>
+	<meta name="description" content="IU Default Search Page">
+	<meta name="author" content="Indiana University">
+
+	<meta name="viewport" content="width=device-width">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-responsive.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
+</head>
+<body>
+<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+    <!-- BEGIN IU BRANDING BAR -->
+	<header class="wrapper clearfix" id="identity">
+		<div id="signature">
+			<a href="http://www.indiana.edu/" class="iu">
+				<img width="171" height="44" src="img/iu_white.gif" alt="Indiana University trident and signature" />
+			</a>
+			        <!-- BEGIN OPTIONAL SEARCH FEATURE -->
+			        
+			  		<form method="get" action="http://search5.iu.edu/search">
+			        	<fieldset id="set1">
+			                <ul class="unstyled">
+			                	<li><a href="http://people.iu.edu/">People</a></li>
+			                    
+			                	<!-- BEGIN UNIT SEARCH OPTION -->
+			
+			                	<li>
+			                    
+			                    <!-- Cutomization Instructions: 
+			                    
+			                    Change the value attribute of the input below to your Web address or a Web address that you would like to 
+			                    limit the search results to. Do not include a trailing forward slash "/". -->
+			                    
+			                    <input type="radio" name="as_sitesearch" id="search1" value="http://www.uits.iu.edu"/>&nbsp;
+			                    
+			                    <!-- Cutomization Instructions: 
+			                    
+			                    Change the text within the label element below to a shortened version of your official IU unit name or 
+			                    a shortened version of the unit name associated with the Web site being searched. The label should contain 
+			                    no more than 13 characters. -->
+			                    
+			                    <label for="search1">UITS</label></li>
+			                    
+			                    <!-- END UNIT SEARCH OPTION -->
+			                    
+			                    <li><input type="radio" name="as_sitesearch" id="search2" value="" checked="checked" />&nbsp;<label for="search2">IU</label></li> 
+			                </ul>
+			            </fieldset>
+			            <fieldset id="set2">
+			            	<input type="text" name="q" id="searchtxt" maxlength="255" value="Search" onfocus="if(this.value=='Search')this.value='';" onblur="if(this.value=='')this.value='Search';" />
+			                
+			                <input type="image" name="btnG" id="go" src="img/go_red.gif" alt="GO" />
+			                
+			                <input type="hidden" name="as_dt" value="i" />
+			                <input type="hidden" name="site" value="indiana" />
+			                <input type="hidden" name="client" value="indiana" />
+			                <input type="hidden" name="proxystylesheet" value="indiana" />
+			                <input type="hidden" name="output" value="xml_no_dtd" />
+			            </fieldset>
+			        </form>
+			        
+			        <!-- END OPTIONAL SEARCH FEATURE -->
+		</div>
+		
+	</header>
+	<!-- END IU BRANDING BAR -->
+	
+	<a id="skip"></a>
+	<div class="container" id="main">
+	    <div class="content">
+	    <h1>FAST Test Search Page</h1>
+    	<p>This form is going to submit to the FAST service. for results.</p>
+		<h2>TODO: update form parameters for the FAST search service.</h2>
+    	</div>
+
+
+
+      <!-- BEGIN IU BRANDING FOOTER -->
+      <footer class="branding" id="copyright">
+      	<hr />
+      	<div id="blockiu">
+      		<a href="http://www.indiana.edu/">
+      			<img width="32" height="32" src="img/iu_white.png" alt="Block IU Trident Icon" />
+      		</a>
+      	</div>
+      	<div id="statement">
+      		<p>
+      			<a href="http://www.indiana.edu/comments/copyright.shtml">Copyright</a>
+      			&copy;
+      			<script type="text/javascript">
+      			var theDate=new Date()
+      			document.write(theDate.getFullYear())
+      			</script>
+      			<noscript>
+      				2012
+      			</noscript>
+      			The Trustees of <a href="http://indiana.edu/">Indiana University</a> | 
+      			<a href="http://www.indiana.edu/comments/copyright.shtml">Copyright Complaints</a> |
+      			<a href="http://search.iu.edu/Privacy.aspx">Privacy Statement</a>
+      		</p>
+      	</div>
+      </footer>
+      <!-- END IU BRANDING FOOTER -->
+    </div> <!--/div.container-->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+<script src="js/libs/bootstrap/transition.js"></script>
+<script src="js/libs/bootstrap/collapse.js"></script>
+
+<script src="js/plugins.js"></script>
+<script src="js/script.js"></script>
+<!--Google Analytics Script-->
+<!--<script>
+	var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>-->
+
+</body>
+</html>
