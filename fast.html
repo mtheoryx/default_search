@@ -30,8 +30,9 @@
 			</a>
 			        <!-- BEGIN OPTIONAL SEARCH FEATURE -->
 			        
-			  		<form method="get" action="http://search5.iu.edu/search">
+			  		<form method="get" action="https://search.sharepoint.iu.edu/sites/example7/Pages/results.aspx">
 			        	<fieldset id="set1">
+							
 			                <ul class="unstyled">
 			                	<li><a href="http://people.iu.edu/">People</a></li>
 			                    
@@ -58,17 +59,14 @@
 			                    
 			                    <li><input type="radio" name="as_sitesearch" id="search2" value="" checked="checked" />&nbsp;<label for="search2">IU</label></li> 
 			                </ul>
+						
 			            </fieldset>
 			            <fieldset id="set2">
-			            	<input type="text" name="q" id="searchtxt" maxlength="255" value="Search" onfocus="if(this.value=='Search')this.value='';" onblur="if(this.value=='')this.value='Search';" />
-			                
+							
+							<input type="text" name="k" id="searchtxt" maxlength="255" value="Search" onfocus="if(this.value=='Search')this.value='';" onblur="if(this.value=='')this.value='Search';" />
+							
 			                <input type="image" name="btnG" id="go" src="img/go_red.gif" alt="GO" />
 			                
-			                <input type="hidden" name="as_dt" value="i" />
-			                <input type="hidden" name="site" value="indiana" />
-			                <input type="hidden" name="client" value="indiana" />
-			                <input type="hidden" name="proxystylesheet" value="indiana" />
-			                <input type="hidden" name="output" value="xml_no_dtd" />
 			            </fieldset>
 			        </form>
 			        
@@ -82,8 +80,8 @@
 	<div class="container" id="main">
 	    <div class="content">
 	    <h1>FAST Test Search Page</h1>
-    	<p>This form is going to submit to the FAST service. for results.</p>
-		<h2>TODO: update form parameters for the FAST search service.</h2>
+    	<p>This form submits to the FAST service. for results.</p>
+		
     	</div>
 
 
