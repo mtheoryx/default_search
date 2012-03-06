@@ -32,6 +32,26 @@
 			        
 			  		<form method="get" action="https://search.sharepoint.iu.edu/sites/example7/Pages/results.aspx">
 			        	
+						<fieldset id="set1">
+	                            <ul class="unstyled">
+	                                <li><a href="http://people.iu.edu/">People</a></li>
+
+	                                <!-- BEGIN UNIT SEARCH OPTION -->
+
+	                                <li>
+
+	                                <!-- @TODO Customization Instructions: -->
+
+
+	                                <input type="radio" name="s" id="s1" value="IUPUI"/>&nbsp;
+									<label for="s">IUPUI</label></li>
+
+	                                <!-- END UNIT SEARCH OPTION -->
+
+	                                <li><input type="radio" name="s" id="s2" value="" checked="checked" />&nbsp;<label for="search2">IU</label></li> 
+	                            </ul>
+                        </fieldset>
+			
 			            <fieldset id="set2">
 							
 							<input type="text" name="k" id="searchtxt" maxlength="255" value="Search" onfocus="if(this.value=='Search')this.value='';" onblur="if(this.value=='')this.value='Search';" />
