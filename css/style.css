@@ -48,16 +48,16 @@ div#signature {
 #signature a.iu img {display: none;}
 
 /* =======================
-    ALL: IU Search Box
+    IU Search Box
    ======================= */
-#identity form {
+form#iusearch {
 	height: 44px;
 	position: absolute;
 	right: 15px;
 	top: 0;
 	width: auto;
 }
-#identity fieldset {
+#iusearch fieldset {
 	border: none;
 	float: left;
 	margin: 0;
@@ -65,28 +65,22 @@ div#signature {
 }
 
 /* Fieldset 1 */
-
-#identity fieldset#set1 {
+#iusearch fieldset#set1 {
 	left: 0;
 	position: relative;
 	top: 17px;
 }
-#identity ul {
+#iusearch ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
-
-#identity li {
+#iusearch li {
     display: block;
     min-width: 60px;
 	float: left;
 	margin: 0 10px 0 0;
-	
 }
-
-
-
 #set1 ul.unstyled li label {    
     display: block;
     float: left;
@@ -94,8 +88,7 @@ div#signature {
     margin-left: 3px;
     margin-right:5px;
 }
-
-#identity input#search1, #identity input#search2 {
+input#search1, input#search2 {
 	left: 0;
 	float: left;
 	height: 13px;
@@ -105,24 +98,12 @@ div#signature {
 	top: 2px;
 	width: 13px;
 }
-
-#set1 input {
-	margin-top:0;
-	
-}
-
-#set1 ul.unstyled li a {
-    font-size: 1.5em;
-}
+#set1 input {margin-top:0;}
+#set1 ul.unstyled li a {font-size: 1.5em;}
 
 /* Fieldset 2 */
-
-#identity fieldset#set2 {
-	left: 2px;
-	position: relative;
-	top: 12px;
-}
-#identity #searchtxt {
+#iusearch fieldset#set2 {left: 2px;	position: relative;	top: 12px;}
+#iusearch #searchtxt {
 	border: 1px solid #c59d9a;
 	color: #616364;
 	float: left;
@@ -136,9 +117,7 @@ div#signature {
 /*	width: 9.300em; /* 93px *!/*/
     width: 120px;
 }
-#identity #go {
-	margin: 2px 0 0 0;
-}
+#iusearch #go {margin: 2px 0 0 0;}
 
 /* =======================
     ALL: IU Main Layout
